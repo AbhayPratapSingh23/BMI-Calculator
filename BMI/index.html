@@ -3,21 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMI Calculator - Check Your Body Mass Index Online</title>
-    <meta name="description" content="Easily calculate your BMI using our free online BMI calculator. Find out if you are underweight, normal, overweight, or obese.">
-    <meta name="keywords" content="BMI Calculator, Body Mass Index, Health Calculator, Weight Calculator">
-    <meta name="author" content="Abhay">
-    <meta name="robots" content="index, follow"> <!-- Allows Google to index & rank your site -->
-    <link rel="canonical" href="https://yourwebsite.com/bmi-calculator">
+    <title>BMI Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
         <h1>BMI Calculator</h1>
-
-        <br>
-    
 
         <!-- Gender Selection -->
         <div class="input-box">
@@ -37,24 +29,17 @@
             <label>Height (m):</label>
             <input type="number" id="height" placeholder="Enter height">
         </div>
-        
-        <br>
+
         <button onclick="calculateBMI()">Calculate BMI</button>
-
         <br>
         <br>
-    
+        
 
-       
-        <div class="result-box">
-            <div class="result">
-                <p>  <span id="bmi-value"> </span></p>
-                <p class="category">   <span id="bmi-category">  </span></p>
-            </div>
+
+        <div class="result">
+            <p>Your BMI: <span id="bmi-value"> </span></p>
+            <p class="category">Category: <span id="bmi-category"> </span></p>
         </div>
-
-
-    
 
         <div id="bmi-pic-container">
             <img id="bmi-pic" src="https://media3.giphy.com/media/MnWTL6gmC0h1383aMo/giphy.gif" alt="BMI Animation">
@@ -62,11 +47,10 @@
 
         <br>
         <br>
-        <br>
-        <br>
+
+
 
     <!-- BMI Theory Section -->
-
     <div class="bmi-theory-container">
         <div class="bmi-info">
             <br>
@@ -84,24 +68,12 @@
     
             <h3>BMI Chart:</h3>
              <div class="bmi-chart-container">
-                <img src="bmichart.jpg" alt="BMI Chart" class="bmi-chart">
+                <img src="https://foodnwellness.com/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-18-at-12.21.52-AM-1536x927.jpeg" alt="BMI Chart" class="bmi-chart">
             </div>
         </div>
     </div>
 
-    <script src="script.js" type="application/ld+json" defer>
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "BMI Calculator",
-  "description": "Calculate your BMI and check your health category.",
-  "url": "https://yourwebsite.com/bmi-calculator",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Your Website"
-  }
-}
-</script>
-    </script>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
