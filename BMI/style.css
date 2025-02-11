@@ -130,7 +130,7 @@ button:hover {
 }
 
 #bmi-pic {
-    width: 250px;  /* Adjust size as needed */
+    width: 270px;  /* Adjust size as needed */
     height: auto;
     border-radius: 20px;  /* Optional: rounded corners */
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
@@ -194,9 +194,3 @@ button:hover {
         max-width: 100%;
     }
 }
-
-
-
-
-
-
