@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator - Check Your Body Mass Index Online</title>
+    <meta name="description" content="Easily calculate your BMI using our free online BMI calculator. Find out if you are underweight, normal, overweight, or obese.">
+    <meta name="keywords" content="BMI Calculator, Body Mass Index, Health Calculator, Weight Calculator">
+    <meta name="author" content="Abhay">
+    <meta name="robots" content="index, follow"> <!-- Allows Google to index & rank your site -->
+    <link rel="canonical" href="https://yourwebsite.com/bmi-calculator">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>BMI Calculator</h1>
+
+        <br>
+    
+
+        <!-- Gender Selection -->
+        <div class="input-box">
+            <label>Select Gender:</label>
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+        <div class="input-box">
+            <label>Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Enter weight">
+        </div>
+
+        <div class="input-box">
+            <label>Height (m):</label>
+            <input type="number" id="height" placeholder="Enter height">
+        </div>
+        
+        <br>
+        <button onclick="calculateBMI()">Calculate BMI</button>
+
+        <br>
+        <br>
+    
+
+       
+        <div class="result-box">
+            <div class="result">
+                <p>  <span id="bmi-value"> </span></p>
+                <p class="category">   <span id="bmi-category">  </span></p>
+            </div>
+        </div>
+
+
+    
+
+        <div id="bmi-pic-container">
+            <img id="bmi-pic" src="https://media3.giphy.com/media/MnWTL6gmC0h1383aMo/giphy.gif" alt="BMI Animation">
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <!-- BMI Theory Section -->
+
+    <div class="bmi-theory-container">
+        <div class="bmi-info">
+            <br>
+            <h2>What is BMI?</h2>
+            <br>
+            <p>
+                Body Mass Index (BMI) is a measure of body fat based on "height and weight".<br>
+                It helps determine if a person is "underweight, normal weight, overweight, or obese".
+            </p>
+            <br>
+            <h3>BMI Formula:</h3>
+            <br>
+            <p> BMI = Weight (kg) / Height² (m²)</p>
+            <br>
+    
+            <h3>BMI Chart:</h3>
+             <div class="bmi-chart-container">
+                <img src="bmichart.jpg" alt="BMI Chart" class="bmi-chart">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" type="application/ld+json" defer>
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "BMI Calculator",
+  "description": "Calculate your BMI and check your health category.",
+  "url": "https://yourwebsite.com/bmi-calculator",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Your Website"
+  }
+}
+</script>
+    </script>
+</body>
+</html>
