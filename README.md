@@ -16,7 +16,7 @@ A simple and responsive Body Mass Index (BMI) Calculator built using HTML, CSS, 
 
 📸 Preview
 
-[![BMI Calculator Screenshot](screenshot.png)]
+![BMI Calculator Screenshot](screenshot.png)
 
 🛠 Technologies Used
 
