@@ -50,6 +50,3 @@ git clone https://github.com/AbhayPratapSingh23/bmi-calculator.git
 
 
 
-🌟 Contributing
-
-Feel free to fork this repository and improve the project!
