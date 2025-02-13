@@ -12,9 +12,7 @@ A simple and responsive Body Mass Index (BMI) Calculator built using HTML, CSS, 
 ✅ Simple and lightweight – No external libraries required
 
 
-🖥 Live Demo
 
-[https://jocular-panda-261daa.netlify.app/]
 
 
 📸 Preview
